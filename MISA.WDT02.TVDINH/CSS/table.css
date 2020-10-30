@@ -1,0 +1,131 @@
+﻿.contain-table {
+    height: 450px;
+    overflow: auto;
+    width:100%
+}
+    .contain-table .main-table {
+        border-collapse: collapse;
+        overflow: auto;
+        min-width: 1650px;
+    }
+        .contain-table .main-table thead th {
+            position: sticky;
+            top: 0;
+        }
+    .contain-table .main-table tr {
+        
+    }
+.main-table tbody tr:hover {
+    cursor:pointer;   
+}
+
+.main-table th {
+    border: 1px solid #d0d0d0;
+    border-top: 0;
+    height: 55px;
+    background-color: #f0f0f0 !important;
+    font-weight: 300;
+    padding:0;
+}
+
+.main-table td {
+    border: 1px solid #d0d0d0;
+    padding:2px 8px 2px 8px;
+}
+
+.main-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+.table-symbol-wrap
+{
+    height:25px;
+    display:flex;
+}
+    .table-symbol-wrap .wrap-right {
+        height: 26px;
+        background-color:#fff;
+    }
+        .table-symbol-wrap .wrap-right input {
+            height: 14px;
+            width: calc(100% - 19px);
+            border: none;
+            padding: 5px 5px;
+            font-size: 13px;
+            outline: none;
+        }
+    .table-symbol-wrap .wrap-left {
+        width:40px;
+        height:24px;
+        background-color:#fff;
+        border:1px solid #d0d0d0;
+        margin-right:2px;
+        margin-left:1px;
+        line-height:30px;
+       
+    }
+    .table-symbol-wrap .wrap-left-small {
+        width: 50px;
+        height: 24px;
+        background-color: #fff;
+        border: 1px solid #d0d0d0;
+        margin-right: 2px;
+        margin-left: 1px;
+        line-height: 30px;
+    }
+    .table-symbol-wrap select
+    {
+        width:100%;
+        height:27px;
+        outline:none;
+        border:none;
+    }
+    /*kích cỡ các thẻ th trong bảng*/
+    .main-table th.table-th-small {
+        width:110px;
+    }
+.main-table th.table-th-large {
+    width: 140px;
+}
+.main-table th.table-th-normal {
+    width: 130px;
+}
+.main-table .table-up {
+    height: 23px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/*chữ khi append dữ liệu gọi từ hàm loadData*/
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+/*checkbox*/
+.checkbox {
+    width: 24px;
+    height: 25px;
+    background: url('../Contents/icons/check.png') no-repeat center;
+   
+}
+.checkbox:hover
+{
+    cursor:pointer;
+}
+
+/*uncheck*/
+.uncheck {
+    width: 24px;
+    height: 25px;
+    background: url('../Contents/icons/uncheck.png') no-repeat center;
+}
+.uncheck:hover
+{
+    cursor:pointer;
+}
+.tick {
+    background-color: #d7e9f4 !important;
+}

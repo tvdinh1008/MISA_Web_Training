@@ -1,0 +1,43 @@
+﻿body {
+    overflow: hidden !important;
+    font-family: 'Roboto',Tahoma,sans-serif;
+    font-size: 13px;
+    color: #404040;
+    -moz-user-select: none; /* Trên Firefox */
+    -ms-user-select: none; /* Trên Internet Explorer */
+    -webkit-user-select: none; /* Trên Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Trên Android and iOS callouts (Điện thoại - máy tính bảng)*/
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    right: 0px;
+    height: 55px;
+    border-bottom: 1px solid#d0d0d0;
+    background-color: #0379aa;
+    display: flex;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 230px;
+    height: calc(100%-2px);
+    background-color: #0379aa;
+    z-index: 2;
+}
+.content {
+    height: calc(100% - 58px);
+    width: calc(100% - 232px);
+    position: absolute;
+    top: 55px;
+    left: 230px;
+    background-color:#fff;
+}
+

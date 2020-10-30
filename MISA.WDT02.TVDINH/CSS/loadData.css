@@ -1,0 +1,10 @@
+﻿#loaddata {
+    display:none;
+    position: absolute;
+    top: 140px;
+    left: 5px;
+    right: 5px;
+    height: 378px;
+    background: url('../Contents/icons/index.comet-spinner.svg') no-repeat center #c1fefe;   
+    background-size: 55px;
+}

@@ -1,0 +1,15 @@
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.BL.dll
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.BL.pdb
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.DL.dll
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.Entities.dll
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.DL.pdb
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.DL.dll.config
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.Entities.pdb
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\MISA.Entities.dll.config
+F:\MISA.WDT02.TVDINH\MISA.BL\obj\Debug\MISA.BL.csprojAssemblyReference.cache
+F:\MISA.WDT02.TVDINH\MISA.BL\obj\Debug\MISA.BL.csproj.CoreCompileInputs.cache
+F:\MISA.WDT02.TVDINH\MISA.BL\obj\Debug\MISA.BL.csproj.CopyComplete
+F:\MISA.WDT02.TVDINH\MISA.BL\obj\Debug\MISA.BL.dll
+F:\MISA.WDT02.TVDINH\MISA.BL\obj\Debug\MISA.BL.pdb
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\EntityFramework.dll
+F:\MISA.WDT02.TVDINH\MISA.BL\bin\Debug\EntityFramework.xml

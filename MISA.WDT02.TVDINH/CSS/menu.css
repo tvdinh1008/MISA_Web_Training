@@ -1,0 +1,129 @@
+﻿.logo
+{
+    display:flex;
+    width:100%;
+    height:55px;
+    border-bottom:1px solid#d0d0d0;
+}
+.icon {
+    width: 25px;
+    height: 18px;
+    background: url('../Contents/icons/iconMenu.png') no-repeat center;
+}
+    .icon.icon-logo {
+        background-position: 0px -421px;
+        margin-right: 10px;
+        margin-left: 8px;
+        margin-top: 17px;
+    }
+.logo span {
+    line-height:50px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.menu-items {
+    max-height: 570px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: 1px solid#fff;
+}
+.menu-item-wrap {
+    height: 40px;
+    display: flex;
+    border-bottom: 1px solid #d0d0d0;
+    z-index:10000;
+}
+.menu-item-wrap:hover
+{
+    background-color:#58b9f2;
+cursor:pointer;
+}
+.menu-item-icons {
+    background: url('../Contents/icons/iconMenu.png') no-repeat center;
+    width: 25px;
+    height: 22px;
+    margin: 8px 8px 0px 8px;
+}
+.menu-item-icons.icon-1
+{
+    background-position:0 -330px;
+}
+    .menu-item-icons.icon-2 {
+        background-position: 0 -192px;
+    }
+    .menu-item-icons.icon-3 {
+        background-position: 0 -377px;
+    }
+    .menu-item-icons.icon-4 {
+        background-position: 0 -41px;
+    }
+    .menu-item-icons.icon-5 {
+        background-position: 0 -80px;
+    }
+    .menu-item-icons.icon-6 {
+        background: url('../Contents/icons/icon-deposit.png') no-repeat center;     
+    }
+    .menu-item-icons.icon-7 {
+        background: url('../Contents/icons/icon-cost.png') no-repeat center;       
+    }
+    .menu-item-icons.icon-8 {
+        background-position: 0 -118px;
+    }
+    .menu-item-icons.icon-9 {
+        background: url('../Contents/icons/vector-smart-object.png') no-repeat center;
+        
+    }
+    .menu-item-icons.icon-10 {
+        background-position: 0 -155px;
+    }
+    .menu-item-icons.icon-11 {
+        background: url('../Contents/icons/cancel-invoice.png') no-repeat center;
+        
+    }
+    .menu-item-icons.icon-12 {
+        background: url('../Contents/icons/SMS_Menu.svg') no-repeat center;
+       
+    }
+    .menu-item-icons.icon-13 {
+        background: url('../Contents/icons/ic_GH.svg') no-repeat center;
+        
+    }
+    .menu-item-icons.icon-14 {
+        background: url('../Contents/icons/ic_hoadon.png') no-repeat center;
+       
+    }
+    .menu-item-icons.icon-15 {
+        background-position: 0 -233px;
+    }
+    .menu-item-icons.icon-16 {
+        background: url('../Contents/icons/iconHelp.png') no-repeat center;
+        
+    }
+    .menu-item-icons.icon-17 {
+        background: url('../Contents/icons/icon-subscriber.png') no-repeat center;
+       
+    }
+    .menu-item-icons.icon-18 {     
+        background: url('../Contents/icons/5food.png') no-repeat center;
+       
+    }
+.arrow-down-b {
+    margin-top:8px;
+    margin-left:40px;
+    width: 25px;
+    height: 22px;
+    background: url('../Contents/icons/iconMenu.png') no-repeat center;
+    background-position:0 -270px;
+}
+    .arrow-down-b.b1
+    {
+        margin-left:88px;
+    }
+    .arrow-down-b.b2 {
+        margin-left: 85px;
+    }
+    .menu-item-wrap .menu-item-text {
+        color: #fff;
+        line-height: 38px;
+    }

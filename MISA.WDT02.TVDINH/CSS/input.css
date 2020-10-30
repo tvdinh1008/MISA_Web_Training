@@ -1,0 +1,199 @@
+﻿
+/*Dialog thêm sửa*/
+#dialog
+{
+    display:none;
+}
+.dialog-wrap-item {
+    display: flex;
+}
+    .dialog-wrap-item input {
+        border: 1px solid #d0d0d0;
+        margin: 0px 2px 3px 0px;
+        height: 4px;
+        padding: 8px;
+        width: 170px;
+        border-radius: 5px;
+        /*outline: none;*/
+    }
+    .dialog-wrap-item span {
+        line-height: 22px;
+        width: 126px;
+    }
+.wrap-item-right
+{
+    display:flex;
+}
+    .wrap-item-right span {
+        width: 126px;
+    }
+.wrap-item-left{
+    display:flex;
+}
+    .wrap-item-left span {
+        width: 126px;
+    }
+.input-size
+{
+    width:511px !important;
+}
+.span-right
+{
+    width:127px !important;
+    margin-left:22px;
+}
+.span-right2 {
+    width: 127px !important;
+    margin-left: 8px;
+}
+.dialog-wrap-item .birthday-input {
+    border-right: 0px;
+    margin-right: 0px;
+    width: 152px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.dialog-wrap-item .date {
+    background: url('../Contents/images/common-icon.png') no-repeat center;
+    background-position: 0 -175px;
+    width: 18px;
+    height: 20px;
+    border: 1px solid #d0d0d0;
+    border-left: 0px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.dialog-wrap-item .date:hover{
+    cursor:pointer;
+}
+.error {
+    width: 16px;
+    height: 17px;
+    background: url(../Contents/icons/IconSprite.png) no-repeat center;
+    background-position: 0 -1807px;
+    margin-top: 2px;
+}
+.input-gc
+{
+    height:35px !important;
+}
+.dialog-toolbar {
+    position: absolute;
+    bottom: 8px;
+    display: flex;
+        left:8px;
+        height:25px;
+   right:8px;
+
+}
+    .dialog-toolbar button {      
+        /*outline: none;*/
+        margin: 0 0 0 10px;
+        height: 25px;
+        background-color: #fff;
+        display: flex;
+        border-radius: 5px;
+        border: 1px solid #d0d0d0;
+    }
+        .dialog-toolbar button:hover {
+            cursor: pointer;
+            background-color: #e1e1e1;            
+        }
+    .dialog-toolbar .icon-1 {
+        background: url('../Contents/icons/IconSprite.png') no-repeat center;
+        background-position:0 -1599px;
+        height:17px;
+        width:18px;
+    }
+    .dialog-toolbar .icon-2 {
+        background: url('../Contents/icons/Save16.png') no-repeat center;
+    }
+    .dialog-toolbar .icon-3 {
+        background: url('../Contents/icons/SaveAdd16.png') no-repeat center;
+    }
+    .dialog-toolbar .icon-4 {
+        background: url('../Contents/icons/Disable16.png') no-repeat center;
+    }
+        .dialog-toolbar-right {
+            display: flex;
+            position: absolute;
+            right: 8px;
+        }
+.dialog-title
+{
+    margin-left:2px;
+    line-height:19px;
+}
+
+/*Dialog cảnh báo xóa*/
+#dialogDelete {
+    display: none;
+    
+}
+.dialogDelete-down{
+    position:absolute;
+    bottom:8px;
+    right:8px;
+}
+.dialogDelete-down button{
+    width:75px;
+    height:24px;
+    outline:none;
+    border:1px solid#d0d0d0;
+    border-radius:3px;
+}
+.dialogDelete-down button:hover {
+    cursor: pointer;
+    background-color: #58b9f2;
+}
+.dialogDelete-up
+{
+    display:flex;
+}
+    .dialogDelete-up .help-icon {
+        width: 32px;
+        height: 32px;
+        background: url('../Contents/icons/icon-question.png') no-repeat center;
+        background-size: 25px;
+    }
+.dialogDelete-Title
+{
+    margin-left:8px;
+    margin-top:2px;
+}
+.validate-length
+{
+    border: 1px solid#ff0000 !important;
+}
+.validate-length-input-name
+{
+    width:150px !important;
+
+}
+.notification {
+    display:flex;
+    width: 200px;
+    height: 22px;
+    margin-left:8px;
+    margin-top: 8px;
+    background-color:#f2f2f2;
+    border-radius:3px;
+}
+    .notification span
+    {
+        width:170px;
+        margin-left:8px;
+    }
+.notification .noti-err
+{
+    margin-left:8px;
+}
+#dialogCancel
+{
+    display:none;
+}
+.dialogCancelTile {
+    line-height: 34px;
+    margin-left: 10px;
+}
